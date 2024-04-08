@@ -10,35 +10,40 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
         <a class="navbar-brand" href="#">
             <img src="./img/logo.png" alt="Event Management" height="30">
         </a>
+
         <form class="form-inline my-2 my-lg-0 mx-auto">
             <input class="form-control mr-sm-2" type="search" placeholder="Search  any event" aria-label="Search  any event">
             <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
         </form>
+
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
               <a class="nav-link" href="#">
                   <img src="./img/confirmation-number.png" alt="Ticket" class="icon-img"> Ticket
               </a>
           </li>
+
           <li class="nav-item">
               <a class="nav-link" href="#">
                   <img src="./img/save.png" alt="Save" class="icon-img"> Save
               </a>
           </li>
-      </ul>
+        </ul>
+
         <button class="round-btn">AS</button>
     
-    </nav>>
+    </nav>
 
 <div class="container mt-4">
     <div class="row">
         <div class="col-md-3">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action">Dashboard</a>
-                <a href="#" class="list-group-item list-group-item-action">Events</a>
+                <a href="#" class="list-group-item list-group-item-action selected-link">Events</a>
                 <a href="#" class="list-group-item list-group-item-action">Orders</a>
                 <a href="#" class="list-group-item list-group-item-action">Settings</a>
             </div>
@@ -99,7 +104,12 @@
                     <label for="ticketPrice">Ticket Price</label>
                     <input type="text" class="form-control" id="ticketPrice" placeholder="Enter ticket price">
                 </div>
-                <button type="submit" class="btn btn-primary">Create Event</button>
+
+                <!-- <form action="event-detail.html" method="get">
+                    <input type="submit" class="btn btn-primary" value="Create Event">
+                </form> -->
+                <a href="./event-detail.html" class="btn btn-primary">Create Event</a>
+
             </form>
         </div>
     </div>

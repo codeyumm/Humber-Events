@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="Event Management" height="30">
+        </a>
+
+        <form class="form-inline my-2 my-lg-0 mx-auto">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search  any event" aria-label="Search  any event">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  <img src="./img/confirmation-number.png" alt="Ticket" class="icon-img"> Ticket
+              </a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  <img src="./img/save.png" alt="Save" class="icon-img"> Save
+              </a>
+          </li>
+        </ul>
+
+        <button class="round-btn">AS</button>
+    
+    </nav>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action selected-link">Dashboard</a>
+                <a href="#" class="list-group-item list-group-item-action">Events</a>
+                <a href="#" class="list-group-item list-group-item-action">Orders</a>
+                <a href="#" class="list-group-item list-group-item-action">Settings</a>
+            </div>
+        </div>
+        <div class="col-md-9 dashboard-container">
+
+            <h2>Welcome to the dashboard</h2>
+
+            <div class="row mt-4">
+
+                <div class="col-md-6">
+                    <h3>Event Summary</h3>
+                    <p>Total Events: 10</p>
+                    <p>Upcoming Events: 5</p>
+                    <p>Past Events: 5</p>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Attendee Summary</h3>
+                    <p>Total Attendees: 100</p>
+                    <p>Attendees for Upcoming Events: 40</p>
+                    <p>Attendees for Past Events: 60</p>
+                </div>
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="./img/chart.png" alt="chart image" class="chart">
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <button class="btn btn-primary mr-2">Create Event</button>
+                    <button class="btn btn-primary mr-2">See my Events</button>
+                    <button class="btn btn-primary">See All Events</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
