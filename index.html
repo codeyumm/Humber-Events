@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Event Management</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="./img/logo.png" alt="Event Management" height="30">
+    </a>
+    <form class="form-inline my-2 my-lg-0 mx-auto">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search  any event" aria-label="Search  any event">
+        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+          <a class="nav-link" href="#">
+              <img src="./img/confirmation-number.png" alt="Ticket" class="icon-img"> Ticket
+          </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">
+              <img src="./img/save.png" alt="Save" class="icon-img"> Save
+          </a>
+      </li>
+  </ul>
+    <button class="round-btn">AS</button>
+
+</nav>
+
+<main>
+  <div class="container mt-5 ">
+    <div class="row no-gutters first-row">
+        <div class="col-md-7">
+            <div class="card event-card main-card">
+                <div class="card-body event-card-body">
+                    <h5 class="card-title">Friday, April 20</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Humber College Youth Transition Program: Info Session</h6>
+                    <button class="btn btn-light">Get Tickets</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <img src="./img/home-hero.png" class="img-fluid" alt="Event Image">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+
+        <div class="col-md-3 text-center ">
+            <img src="./img/theater-comedy.png" class="category-img event-category-card" alt="Category Image">
+            <h4>Art</h4>
+           
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img src="./img/groups.png" class="category-img event-category-card" alt="Category Image">
+          <h4>Community</h4>
+        </div>
+
+      <div class="col-md-3 text-center">
+        <img src="./img/handshake.png" class="category-img event-category-card" alt="Category Image">
+        <h4>Dialogue</h4>
+      </div>
+
+      <div class="col-md-3 text-center">
+        <img src="./img/grocery.png" class="category-img event-category-card" alt="Category Image">
+        <h4>Food</h4>
+      </div>
+<!-- 
+      <div class="col-md-4 text-center">
+        <img src="./img/handshake.png" class="category-img event-category-card" alt="Category Image">
+        <h4>Art & Culture</h4>
+        
+      </div>
+
+      <div class="col-md-4 text-center">
+        <img src="./img/handshake.png" class="category-img event-category-card" alt="Category Image">
+        <h4>Wellness</h4>
+        
+      </div> -->
+
+    </div>
+</div>
+
+</main>
+
+<section class="events">
+  <div class="container mt-4">
+    <!-- First Row for Trending Events -->
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <h2>Trending Events</h2>
+        </div>
+        <div class="col-md-4">
+            <div class="card event-card">
+                <img src="./img/rectangle-87.png" class="card-img-top event-image" alt="Event Image">
+                <div class="card-body">
+                    <h5 class="card-title event-title">Humber College Youth Transition Program: Info Session</h5>
+                    <p class="card-text event-date">Date: April 20, 2024</p>
+                    <p class="card-text event-price">Free</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card event-card">
+                <img src="./img/rectangle-89.png" class="card-img-top" alt="Event Image">
+                <div class="card-body">
+                    <h5 class="card-title event-title">Present Like a boss! Presentation Skills Workshop</h5>
+                    <p class="card-text event-date">Date: April 22, 2024</p>
+                    <p class="card-text event-price">Free</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card event-card">
+              <img src="./img/rectangle-91.png" class="card-img-top" alt="Event Image">
+              <div class="card-body">
+                  <h5 class="card-title event-title">I'm Too Busy! How to Manage Your Time</h5>
+                  <p class="card-text event-date">Date: April 22, 2024</p>
+                  <p class="card-text event-price">Free</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- <div class="col-md-4">
+        <div class="card event-card">
+            <img src="./img/rectangle-89.png" class="card-img-top" alt="Event Image">
+            <div class="card-body">
+                <h5 class="card-title event-title">Present Like a boss! Presentation Skills Workshop</h5>
+                <p class="card-text event-date">Date: April 22, 2024</p>
+                <p class="card-text event-price">$10</p>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-md-12">
+          <h2>Trending Events</h2>
+      </div>
+      <div class="col-md-4">
+          <div class="card event-card">
+              <img src="./img/rectangle-51.png" class="card-img-top event-image" alt="Event Image">
+              <div class="card-body">
+                  <h5 class="card-title event-title">Humber College Youth Transition Program: Info Session</h5>
+                  <p class="card-text event-date">Date: April 20, 2024</p>
+                  <p class="card-text event-price">Free</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="card event-card">
+              <img src="./img/rectangle-55.png" class="card-img-top" alt="Event Image">
+              <div class="card-body">
+                  <h5 class="card-title event-title">Present Like a boss! Presentation Skills Workshop</h5>
+                  <p class="card-text event-date">Date: April 22, 2024</p>
+                  <p class="card-text event-price">Free</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card event-card">
+            <img src="./img/rectangle-87.png" class="card-img-top" alt="Event Image">
+            <div class="card-body">
+                <h5 class="card-title event-title">I'm Too Busy! How to Manage Your Time</h5>
+                <p class="card-text event-date">Date: April 22, 2024</p>
+                <p class="card-text event-price">Free</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="col-md-4">
+      <div class="card event-card">
+          <img src="./img/rectangle-89.png" class="card-img-top" alt="Event Image">
+          <div class="card-body">
+              <h5 class="card-title event-title">Present Like a boss! Presentation Skills Workshop</h5>
+              <p class="card-text event-date">Date: April 22, 2024</p>
+              <p class="card-text event-price">$10</p>
+          </div>
+      </div> -->
+  </div>
+
+    </div>
+
+    
+</div>
+</section>
+
+
+</body>
+</html>

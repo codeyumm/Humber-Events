@@ -1,0 +1,158 @@
+:root {
+  --maincool-grey: rgba(58, 72, 86, 1);
+  --mainred: rgba(200, 16, 46, 1);
+  --maindark-red: rgba(134, 38, 51, 1);
+  --mainblueprimary: rgba(0, 109, 156, 1);
+  --mainbluehover: rgba(0, 91, 131, 1);
+  --mainbluesecondary: rgba(0, 75, 120, 1);
+  --greys-1: rgba(230, 234, 238, 1);
+  --greys-2: rgba(200, 204, 208, 1);
+  --greys-3: rgba(97, 105, 114, 1);
+  --greys-4: rgba(82, 82, 82, 1);
+  --accentspurple: rgba(92, 6, 140, 1);
+  --accentsteal: rgba(0, 124, 138, 1);
+  --accentslight-blue: rgba(184, 212, 246, 1);
+  --h1-font-family: "Open Sans", Helvetica;
+  --h1-font-weight: 700;
+  --h1-font-size: 32px;
+  --h1-letter-spacing: 0px;
+  --h1-line-height: 129.99999523162842%;
+  --h1-font-style: normal;
+  --h2-font-family: "Open Sans", Helvetica;
+  --h2-font-weight: 700;
+  --h2-font-size: 29px;
+  --h2-letter-spacing: 0px;
+  --h2-line-height: 129.99999523162842%;
+  --h2-font-style: normal;
+  --h3-font-family: "Open Sans", Helvetica;
+  --h3-font-weight: 700;
+  --h3-font-size: 26px;
+  --h3-letter-spacing: 0px;
+  --h3-line-height: 129.99999523162842%;
+  --h3-font-style: normal;
+  --h4-font-family: "Open Sans", Helvetica;
+  --h4-font-weight: 700;
+  --h4-font-size: 23px;
+  --h4-letter-spacing: 0px;
+  --h4-line-height: 129.99999523162842%;
+  --h4-font-style: normal;
+  --h5-font-family: "Open Sans", Helvetica;
+  --h5-font-weight: 700;
+  --h5-font-size: 20px;
+  --h5-letter-spacing: 0px;
+  --h5-line-height: 129.99999523162842%;
+  --h5-font-style: normal;
+  --h6-font-family: "Open Sans", Helvetica;
+  --h6-font-weight: 700;
+  --h6-font-size: 18px;
+  --h6-letter-spacing: 0px;
+  --h6-line-height: 129.99999523162842%;
+  --h6-font-style: normal;
+  --body-bold-font-family: "Open Sans", Helvetica;
+  --body-bold-font-weight: 700;
+  --body-bold-font-size: 16px;
+  --body-bold-letter-spacing: 0px;
+  --body-bold-line-height: 160.0000023841858%;
+  --body-bold-font-style: normal;
+  --body-regular-font-family: "Open Sans", Helvetica;
+  --body-regular-font-weight: 400;
+  --body-regular-font-size: 16px;
+  --body-regular-letter-spacing: 0px;
+  --body-regular-line-height: 160.0000023841858%;
+  --body-regular-font-style: normal;
+  --small-regular-font-family: "Open Sans", Helvetica;
+  --small-regular-font-weight: 400;
+  --small-regular-font-size: 14px;
+  --small-regular-letter-spacing: 0px;
+  --small-regular-line-height: 160.0000023841858%;
+  --small-regular-font-style: normal;
+  --small-bold-font-family: "Open Sans", Helvetica;
+  --small-bold-font-weight: 700;
+  --small-bold-font-size: 14px;
+  --small-bold-letter-spacing: 0px;
+  --small-bold-line-height: 160.0000023841858%;
+  --small-bold-font-style: normal;
+}
+
+
+/* Home page css */
+
+.round-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.icon-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+
+.main-card{
+  background-color: var(--mainblueprimary);
+
+}
+
+.event-card {
+  margin-bottom: 20px;
+  height: 100%;
+  color: var(--greys-1) !important;
+  
+}
+
+.event-card h6{
+  color: var(--greys-1) !important;
+}
+.event-card .event-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.first-row {
+  min-height: 35vh !important;
+}
+.first-row img {
+  width: 100vw; 
+  height: 100%;
+}
+
+.event-card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.event-category-card{
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 18px;
+}
+
+.category-img{
+  height: 86px;
+  width: 86px;
+}
+
+.events .event-card{
+  color: black !important;
+}
+
+.col-md-9 h2{
+  height: 120px;
+  background-color: var(--mainblueprimary);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12px;
+}
