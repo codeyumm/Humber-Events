@@ -15,7 +15,6 @@
 }
 
 
-
 /* Home page css */
 
 .round-btn {
@@ -153,4 +152,33 @@
   gap: 36px !important;
 }
 
+footer{
+  margin-top: 120px ;
+  background-color: var(--mainbluesecondary);
+  padding-top: 32px;
+}
 
+footer a{
+  color: white;
+}
+
+.social-icons a{
+  margin-right: 12px !important;
+}
+
+.modal button{
+
+  background-color: var(--mainblueprimary);
+}
+
+.modal .close{
+  background-color: white;
+}
+
+.btns button{
+  background-color: var(--mainbluesecondary);
+}
+
+.btns a{
+  background-color: var(--mainbluesecondary);
+}

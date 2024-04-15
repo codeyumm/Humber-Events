@@ -6,6 +6,8 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 <body>
 
@@ -41,7 +43,7 @@
 <div class="container mt-4">
     <div class="row">
         <div class="col-md-3">
-            <div class="list-group">
+            <div class="list-group social-icons">
                 <a href="#" class="list-group-item list-group-item-action selected-link">Dashboard</a>
                 <a href="#" class="list-group-item list-group-item-action">Events</a>
                 <a href="#" class="list-group-item list-group-item-action">Orders</a>
@@ -76,9 +78,9 @@
                 </div>
             </div>
 
-            <div class="row mt-4">
+            <div class="row mt-4 btns">
                 <div class="col-md-12">
-                    <button class="btn btn-primary mr-2">Create Event</button>
+                    <a href="./create-event.html" class="btn btn-primary mr-2">Create Event</a>
                     <button class="btn btn-primary mr-2">See my Events</button>
                     <button class="btn btn-primary">See All Events</button>
                 </div>
@@ -86,6 +88,45 @@
         </div>
     </div>
 </div>
+
+<footer class="footer   text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./img/logo-white.png" alt="Logo">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <p>205 Humber College Blvd, Toronto ON M9W 5L7, Canada</p>
+                <p>416-119-4040</p>
+                <p>contact@events.humber.ca</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Resources</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Connect</h5>
+                <p>Follow us on social media:</p>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2024 Humber College</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Accessibility</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
